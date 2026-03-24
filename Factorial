@@ -1,7 +1,7 @@
 <?php
 // Programa para calcular el factorial de un número
 
-$numero = 5;
+$numero = 6;
 
 function calcularFactorial($n) {
     if ($n == 0 || $n == 1) {
