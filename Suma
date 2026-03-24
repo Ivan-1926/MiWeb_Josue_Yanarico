@@ -1,0 +1,12 @@
+<?php
+// Programa para calcular la suma de 2 números
+
+$num1 = 15;
+$num2 = 25;
+$suma = $num1 + $num2;
+
+echo "=== CALCULADORA DE SUMA ===\n";
+echo "Número 1: $num1\n";
+echo "Número 2: $num2\n";
+echo "Resultado: $num1 + $num2 = $suma\n";
+?>

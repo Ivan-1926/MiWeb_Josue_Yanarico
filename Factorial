@@ -1,0 +1,19 @@
+<?php
+// Programa para calcular el factorial de un número
+
+$numero = 5;
+
+function calcularFactorial($n) {
+    if ($n == 0 || $n == 1) {
+        return 1;
+    } else {
+        return $n * calcularFactorial($n - 1);
+    }
+}
+
+$factorial = calcularFactorial($numero);
+
+echo "=== CALCULADORA DE FACTORIAL ===\n";
+echo "Número: $numero\n";
+echo "Factorial: $numero! = $factorial\n";
+?>

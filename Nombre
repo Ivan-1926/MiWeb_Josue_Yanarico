@@ -1,0 +1,8 @@
+<?php
+
+$nombre = "Josue Yanarico";
+
+echo "=== MI NOMBRE ===\n";
+echo "Nombre completo: $nombre\n";
+
+?>
