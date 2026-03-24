@@ -15,6 +15,6 @@ def fibonacci(n):
 # Ejemplo: Mostrar los primeros 10 números de Fibonacci
 if __name__ == "__main__":
     num_terminos = 10
-    resultado = fibonacci(num_terminos)
+    resultados = fibonacci(num_terminos)
     print(f"Serie Fibonacci ({num_terminos} términos):")
-    print(resultado)
+    print(resultados)
